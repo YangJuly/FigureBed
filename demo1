@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T10:55:16.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="SIpKG7ucBlwInX302KDz" version="13.6.4" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-21T15:56:04.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="cFVhHl4_00wbjIWhgPxS" version="13.6.4" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="908" dy="614" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-24" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568" y="160" as="sourcePoint" />
+            <mxPoint x="576" y="176" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="160" />
+              <mxPoint x="840" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-2" value="&lt;font style=&quot;font-size: 10px&quot;&gt;买家&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="23" y="20" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-3" value="&lt;font style=&quot;font-size: 8px&quot;&gt;APP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="168" y="64" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-6" value="" style="endArrow=none;dashed=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="38" y="713" as="sourcePoint" />
+            <mxPoint x="37.66" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-7" value="" style="endArrow=none;dashed=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="188" y="714" as="sourcePoint" />
+            <mxPoint x="187.66000000000008" y="94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-9" value="" style="endArrow=none;dashed=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="714" as="sourcePoint" />
+            <mxPoint x="339.6600000000001" y="94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-10" value="&lt;span style=&quot;font-size: 8px&quot;&gt;业务后台&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="304" y="64" width="72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-11" value="&lt;font style=&quot;font-size: 8px&quot;&gt;运营后台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="528" y="64" width="72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-12" value="&lt;font style=&quot;font-size: 8px&quot;&gt;预算控制后台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="808" y="64" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-13" value="&lt;font style=&quot;font-size: 8px&quot;&gt;补贴后台（优惠券/津贴红包）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="944" y="64" width="208" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-15" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="128" as="sourcePoint" />
+            <mxPoint x="184" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-19" value="&lt;span style=&quot;font-size: 8px&quot;&gt;进入某个资源位&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6lvYs5wnFpFNDhVvVR6f-15">
+          <mxGeometry x="-0.1083" y="4" relative="1" as="geometry">
+            <mxPoint x="-16" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-16" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="192" y="144" as="sourcePoint" />
+            <mxPoint x="560" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-21" value="" style="endArrow=none;dashed=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="563.84" y="713" as="sourcePoint" />
+            <mxPoint x="563.5000000000001" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-22" value="&lt;span style=&quot;font-size: 8px&quot;&gt;获得当前资源位下的资源（包括banner、补贴策略）&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-23" value="" style="endArrow=none;dashed=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="847.8400000000001" y="710" as="sourcePoint" />
+            <mxPoint x="847.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6lvYs5wnFpFNDhVvVR6f-25" value="&lt;span style=&quot;font-size: 8px&quot;&gt;查询补贴该如何下发（下发哪些，是否可以下发）&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="704" y="144" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
