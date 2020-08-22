@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-22T08:16:36.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="4va77kUp-HdNeZw1BrTS" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-22T08:51:46.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="uh82xDt6tP18TyRNpw8b" version="13.6.4" type="github">
   <diagram id="aQA2U7gVVGZSenzrabr1" name="Page-1">
-    <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,16 +13,16 @@
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-9" value="app/后台业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-6">
           <mxGeometry x="10" y="80" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-35" value="app/后台业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-6">
-          <mxGeometry x="10" y="320" width="90" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-7" value="运营后台" style="swimlane;html=1;startSize=20;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-5">
           <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-10" value="根据资源ID、策略ID，请求策略后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-7">
-          <mxGeometry x="15" y="140" width="95" height="50" as="geometry" />
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-39" value="根据策略、预算下发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-7">
+          <mxGeometry x="15" y="320" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-11" value="推广表" style="swimlane;html=1;startSize=20;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-5">
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-10" value="根据资源ID、策略ID对应的策略，查询预算情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-7">
+          <mxGeometry x="15" y="140" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-11" value="推广表&amp;amp;预算表" style="swimlane;html=1;startSize=20;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-5">
           <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-19" value="&lt;font color=&quot;#3399ff&quot;&gt;资源ID，策略ID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-11">
@@ -34,13 +34,13 @@
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-29" value="&lt;font color=&quot;#000000&quot;&gt;定时拉取，放入内存&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3399FF;" vertex="1" connectable="0" parent="3wsOcdsyDwu4bYmxYz4b-8">
           <mxGeometry x="60" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-27" value="根据策略ID对应的内容执行对应策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-8">
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-27" value="查询预算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-8">
           <mxGeometry x="10" y="220" width="95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-25" value="补贴策略表" style="swimlane;html=1;startSize=20;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-5">
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-25" value="预算表" style="swimlane;html=1;startSize=20;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-5">
           <mxGeometry x="480" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-26" value="&lt;font color=&quot;#3399ff&quot;&gt;策略ID，策略规则&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-25">
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-26" value="&lt;font color=&quot;#3399ff&quot;&gt;策略ID、补贴ID，预算数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-25">
           <mxGeometry x="15" y="50" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-30" value="预算-redis" style="swimlane;html=1;startSize=20;" vertex="1" parent="3wsOcdsyDwu4bYmxYz4b-5">
@@ -61,14 +61,6 @@
             <mxPoint y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3399FF;" edge="1" parent="3wsOcdsyDwu4bYmxYz4b-5" source="3wsOcdsyDwu4bYmxYz4b-9" target="3wsOcdsyDwu4bYmxYz4b-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="115" y="120" />
-              <mxPoint x="115" y="185" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3399FF;" edge="1" parent="3wsOcdsyDwu4bYmxYz4b-5" source="3wsOcdsyDwu4bYmxYz4b-27" target="3wsOcdsyDwu4bYmxYz4b-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -82,17 +74,20 @@
         <mxCell id="3wsOcdsyDwu4bYmxYz4b-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3399FF;" edge="1" parent="3wsOcdsyDwu4bYmxYz4b-5" source="3wsOcdsyDwu4bYmxYz4b-27" target="3wsOcdsyDwu4bYmxYz4b-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#3399FF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3wsOcdsyDwu4bYmxYz4b-5" source="3wsOcdsyDwu4bYmxYz4b-27" target="3wsOcdsyDwu4bYmxYz4b-35">
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#3399FF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3wsOcdsyDwu4bYmxYz4b-5" source="3wsOcdsyDwu4bYmxYz4b-27" target="3wsOcdsyDwu4bYmxYz4b-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="410" as="targetPoint" />
+            <mxPoint x="230" y="360" as="targetPoint" />
             <Array as="points">
               <mxPoint x="418" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3wsOcdsyDwu4bYmxYz4b-36" value="&lt;font color=&quot;#000000&quot;&gt;下发&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3399FF;" vertex="1" connectable="0" parent="3wsOcdsyDwu4bYmxYz4b-34">
-          <mxGeometry x="0.0906" y="-4" relative="1" as="geometry">
-            <mxPoint x="3.5" y="-16" as="offset" />
+        <mxCell id="3wsOcdsyDwu4bYmxYz4b-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3399FF;" edge="1" parent="3wsOcdsyDwu4bYmxYz4b-5" source="3wsOcdsyDwu4bYmxYz4b-9" target="3wsOcdsyDwu4bYmxYz4b-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="120" />
+              <mxPoint x="115" y="190" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
