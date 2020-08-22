@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-22T07:04:37.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="DyttSIt-gzHiznaO0CLw" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-22T07:07:13.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="RDV7F2olmNU5b73w6tAo" version="13.6.4" type="github">
   <diagram id="699rmnAYEIZHCqSiF6yf" name="Page-1">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,25 +25,25 @@
         <mxCell id="XF2qbpMsyarHRg5j9GiD-2" value="位置/action表" style="swimlane;html=1;startSize=20;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-1">
           <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-12" value="位置/action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-2">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-12" value="&lt;font color=&quot;#3399ff&quot;&gt;位置/action ID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-2">
           <mxGeometry x="20" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-4" value="推广表" style="swimlane;html=1;startSize=20;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-1">
           <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-15" value="推广&lt;br&gt;（记录位置/action与对应的补贴）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-4">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-15" value="&lt;span style=&quot;color: rgb(51 , 153 , 255)&quot;&gt;位置/action ID&lt;br&gt;策略ID&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-4">
           <mxGeometry x="20" y="140" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-5" value="补贴策略表" style="swimlane;html=1;startSize=20;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-1">
           <mxGeometry x="360" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-18" value="记录策略规则数据、补贴内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-5">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-18" value="&lt;font color=&quot;#3399ff&quot;&gt;策略规则数据、补贴ID List&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-5">
           <mxGeometry x="20" y="240" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-9" value="补贴表" style="swimlane;html=1;startSize=20;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-1">
           <mxGeometry x="480" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-19" value="补贴内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-9">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-19" value="&lt;font color=&quot;#3399ff&quot;&gt;补贴规则数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-9">
           <mxGeometry x="20" y="340" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-11" target="XF2qbpMsyarHRg5j9GiD-12">
