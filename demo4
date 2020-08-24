@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T06:06:27.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="AHdOcsvcGeGL3p3hrH5G" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T08:33:01.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="wPuMLdhDFed7dJhO5W5T" version="13.6.4" type="github">
   <diagram id="699rmnAYEIZHCqSiF6yf" name="Page-1">
-    <mxGraphModel dx="1554" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1828" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XF2qbpMsyarHRg5j9GiD-1" value="策略制定" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="150" y="50" width="1560" height="880" as="geometry" />
+          <mxGeometry x="150" y="50" width="1440" height="880" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-7" value="运营后台页面" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
           <mxGeometry y="20" width="120" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-54" value="推广内容&lt;br&gt;还是补贴" style="rhombus;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-7" vertex="1">
+        <mxCell id="mKAWxx7AU6u1SPoq21es-1" value="创建补贴、预算控制策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XF2qbpMsyarHRg5j9GiD-7">
           <mxGeometry x="20" y="330" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-22" value="选取/新建&lt;br&gt;策略" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-7" vertex="1">
@@ -19,19 +19,19 @@
         <mxCell id="XF2qbpMsyarHRg5j9GiD-13" value="选取/新建&lt;br&gt;推广" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-7" vertex="1">
           <mxGeometry x="20" y="140" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-11" value="选取/新建&lt;br&gt;位置/action" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-7" vertex="1">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-11" value="选取/新建&lt;br&gt;场景" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-7" vertex="1">
           <mxGeometry x="20" y="40" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-2" value="位置/action表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-2" value="场景表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
           <mxGeometry x="120" y="20" width="120" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-12" value="&lt;font color=&quot;#3399ff&quot;&gt;位置/action ID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-2" vertex="1">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-12" value="&lt;font color=&quot;#3399ff&quot;&gt;场景 ID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-2" vertex="1">
           <mxGeometry x="20" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-4" value="推广表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
           <mxGeometry x="240" y="20" width="120" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-69" value="若是补贴，2、新建补贴" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XF2qbpMsyarHRg5j9GiD-4" vertex="1" connectable="0">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-69" value="新建补贴" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XF2qbpMsyarHRg5j9GiD-4" vertex="1" connectable="0">
           <mxGeometry x="50" y="550" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-15" value="&lt;span style=&quot;color: rgb(51 , 153 , 255)&quot;&gt;位置/action ID&lt;br&gt;策略ID&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-4" vertex="1">
@@ -40,59 +40,53 @@
         <mxCell id="XF2qbpMsyarHRg5j9GiD-5" value="策略表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
           <mxGeometry x="360" y="20" width="120" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-18" value="&lt;font color=&quot;#3399ff&quot;&gt;策略规则数据、补贴ID List、推广内容&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-5" vertex="1">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-18" value="&lt;font color=&quot;#3399ff&quot;&gt;场景ID，策略ID、策略规则数据、补贴ID List&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-5" vertex="1">
           <mxGeometry x="20" y="240" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-9" value="内容表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="480" y="20" width="120" height="860" as="geometry" />
-        </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-46" value="&lt;font color=&quot;#3399ff&quot;&gt;推广内容&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-9" vertex="1">
-          <mxGeometry x="20" y="330" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-28" value="预算控制后台" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="600" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="480" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-35" value="生成对应预算控制内容" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-28" vertex="1">
           <mxGeometry x="20" y="400" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-34" value="预算规则定义表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="720" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="600" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-19" value="&lt;font color=&quot;#3399ff&quot;&gt;预算规则定义&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-34" vertex="1">
-          <mxGeometry x="20" y="436" width="80" height="60" as="geometry" />
+          <mxGeometry x="20" y="470" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-41" value="预算数据表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="840" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="720" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-29" value="&lt;span style=&quot;color: rgb(51 , 153 , 255)&quot;&gt;策略规则数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-41" vertex="1">
           <mxGeometry x="20" y="485" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-44" value="预算redis" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="960" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="840" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-123" value="&lt;span style=&quot;color: rgb(51 , 153 , 255)&quot;&gt;策略ID，预算数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-44" vertex="1">
           <mxGeometry x="20" y="510" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-45" value="补贴后台" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="1080" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="960" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-65" value="生成补贴" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-45" vertex="1">
           <mxGeometry x="20" y="545" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-62" value="补贴规则定义表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="1200" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="1080" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-70" value="&lt;font color=&quot;#3399ff&quot;&gt;补贴规则定义&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-62" vertex="1">
           <mxGeometry x="20" y="605" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-66" value="补贴规则数据表" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="1320" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="1200" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-71" value="&lt;font color=&quot;#3399ff&quot;&gt;补贴规则数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-66" vertex="1">
           <mxGeometry x="20" y="680" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-67" value="补贴redis" style="swimlane;html=1;startSize=20;" parent="XF2qbpMsyarHRg5j9GiD-1" vertex="1">
-          <mxGeometry x="1440" y="20" width="120" height="860" as="geometry" />
+          <mxGeometry x="1320" y="20" width="120" height="860" as="geometry" />
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-117" value="&lt;font color=&quot;#3399ff&quot;&gt;补贴ID、领取使用数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XF2qbpMsyarHRg5j9GiD-67" vertex="1">
           <mxGeometry x="30" y="740" width="80" height="60" as="geometry" />
@@ -112,30 +106,12 @@
         <mxCell id="XF2qbpMsyarHRg5j9GiD-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-22" target="XF2qbpMsyarHRg5j9GiD-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" target="XF2qbpMsyarHRg5j9GiD-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="380" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-56" value="若是内容，新建推广内容数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XF2qbpMsyarHRg5j9GiD-52" vertex="1" connectable="0">
-          <mxGeometry x="-0.073" y="-1" relative="1" as="geometry">
-            <mxPoint x="15" y="-21" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="350" as="targetPoint" />
             <Array as="points">
               <mxPoint x="420" y="330" />
               <mxPoint x="60" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-35" target="XF2qbpMsyarHRg5j9GiD-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="710" y="450" />
-              <mxPoint x="710" y="486" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -147,31 +123,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-54" target="XF2qbpMsyarHRg5j9GiD-35" edge="1">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" target="XF2qbpMsyarHRg5j9GiD-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="60" y="450" />
             </Array>
+            <mxPoint x="60" y="410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-64" value="若是补贴，1、新建预算控制数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XF2qbpMsyarHRg5j9GiD-63" vertex="1" connectable="0">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-64" value="新建预算控制数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XF2qbpMsyarHRg5j9GiD-63" vertex="1" connectable="0">
           <mxGeometry x="-0.0753" y="3" relative="1" as="geometry">
-            <mxPoint x="-7" y="-17" as="offset" />
+            <mxPoint x="58" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-54" target="XF2qbpMsyarHRg5j9GiD-65" edge="1">
+        <mxCell id="XF2qbpMsyarHRg5j9GiD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" target="XF2qbpMsyarHRg5j9GiD-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="60" y="595" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XF2qbpMsyarHRg5j9GiD-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-65" target="XF2qbpMsyarHRg5j9GiD-70" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1190" y="595" />
-              <mxPoint x="1190" y="655" />
-            </Array>
+            <mxPoint x="60" y="410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XF2qbpMsyarHRg5j9GiD-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-65" target="XF2qbpMsyarHRg5j9GiD-71" edge="1">
@@ -197,6 +167,16 @@
               <mxPoint x="710" y="575" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mKAWxx7AU6u1SPoq21es-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-35" target="XF2qbpMsyarHRg5j9GiD-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKAWxx7AU6u1SPoq21es-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XF2qbpMsyarHRg5j9GiD-1" source="XF2qbpMsyarHRg5j9GiD-65" target="XF2qbpMsyarHRg5j9GiD-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
