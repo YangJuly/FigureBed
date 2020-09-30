@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T03:13:04.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.6.4" etag="RUIWBpuZ0TofuD74BsDj" type="github"><diagram id="flPBgFpSt9C9217AAj3-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-30T03:40:34.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="kkId-pIYuL1SarATK2oT" version="13.6.4" type="github">
+  <diagram id="flPBgFpSt9C9217AAj3-" name="Page-1">
+    <mxGraphModel dx="1722" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cXxN616EAJIGxjYKOzzn-1" value="cache--redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cXxN616EAJIGxjYKOzzn-2" target="cXxN616EAJIGxjYKOzzn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-2" value="非核心链路读请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cXxN616EAJIGxjYKOzzn-4" target="cXxN616EAJIGxjYKOzzn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-4" value="写请求：领取、使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-5" value="db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.117;exitY=-0.031;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="cXxN616EAJIGxjYKOzzn-5" target="cXxN616EAJIGxjYKOzzn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.0055865921788" y="340" as="sourcePoint" />
+            <mxPoint x="260.18" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-11" value="async" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cXxN616EAJIGxjYKOzzn-9">
+          <mxGeometry x="-0.0244" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cXxN616EAJIGxjYKOzzn-13" target="cXxN616EAJIGxjYKOzzn-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="270" />
+              <mxPoint x="620" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXxN616EAJIGxjYKOzzn-13" value="核心链路读请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
