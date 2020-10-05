@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2020-10-05T15:14:28.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.7.6" etag="PyyZuhNHK9iJcyGm-lcz" type="github"><diagram id="xpa_c6y889C4fPkHPRFM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-05T15:17:40.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="9SEjM5ESo9lKDwo0PIHz" version="13.7.6" type="github">
+  <diagram id="xpa_c6y889C4fPkHPRFM" name="Page-1">
+    <mxGraphModel dx="1298" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-1" value="券使用" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="610" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-2" value="业务侧" style="swimlane;html=1;startSize=20;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-1">
+          <mxGeometry y="20" width="120" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-3" value="业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-2">
+          <mxGeometry x="15" y="60" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-5" value="券-核心服务" style="swimlane;html=1;startSize=20;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-1">
+          <mxGeometry x="120" y="20" width="120" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tUe-KRW1MvliCCD5I6x2-5" source="tUe-KRW1MvliCCD5I6x2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-10" value="前置校验、例如风控等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-5">
+          <mxGeometry x="15" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-7" value="是否通过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-5">
+          <mxGeometry x="20" y="200" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-12" value="db" style="swimlane;html=1;startSize=20;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-1">
+          <mxGeometry x="240" y="20" width="120" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-14" value="更新券状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-12">
+          <mxGeometry x="15" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-16" value="canal" style="swimlane;html=1;startSize=20;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-1">
+          <mxGeometry x="360" y="20" width="120" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-70" value="异步同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-16">
+          <mxGeometry x="15" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tUe-KRW1MvliCCD5I6x2-1" source="tUe-KRW1MvliCCD5I6x2-3" target="tUe-KRW1MvliCCD5I6x2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tUe-KRW1MvliCCD5I6x2-1" source="tUe-KRW1MvliCCD5I6x2-7" target="tUe-KRW1MvliCCD5I6x2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-22" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tUe-KRW1MvliCCD5I6x2-21">
+          <mxGeometry x="-0.36" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-29" value="redis" style="swimlane;html=1;startSize=20;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-1">
+          <mxGeometry x="480" y="20" width="130" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-68" value="更新券状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tUe-KRW1MvliCCD5I6x2-29">
+          <mxGeometry x="20" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tUe-KRW1MvliCCD5I6x2-1" source="tUe-KRW1MvliCCD5I6x2-14" target="tUe-KRW1MvliCCD5I6x2-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tUe-KRW1MvliCCD5I6x2-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tUe-KRW1MvliCCD5I6x2-1" source="tUe-KRW1MvliCCD5I6x2-70" target="tUe-KRW1MvliCCD5I6x2-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
