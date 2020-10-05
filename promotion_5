@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-05T14:11:17.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Je58pE6SFWfOGjhYkFvQ" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-05T14:13:02.001Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="SXvnWv8tnK70Yly80pKG" version="13.7.6" type="github">
   <diagram id="Y840NEoHQV1mlparQRkM" name="Page-1">
     <mxGraphModel dx="1854" dy="2290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -302,12 +302,6 @@
         </mxCell>
         <mxCell id="t3jTDR_2lAL1nldPrzv0-168" value="&lt;span style=&quot;font-size: 8px&quot;&gt;非核心服务（流量）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="990" y="411" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="t3jTDR_2lAL1nldPrzv0-169" value="" style="shape=link;html=1;" edge="1" parent="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="200" y="1570" as="sourcePoint" />
-            <mxPoint x="1489.9999999999995" y="1570" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
