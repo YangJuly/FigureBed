@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T07:37:27.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="yE9bYh2RZlt0S9Kt5FTO" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T07:46:12.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="0pOcEhWZjnE9zGF7ubJY" version="13.7.7" type="github">
   <diagram id="2udTHebx2r1BKwhgpGDc" name="Page-1">
     <mxGraphModel dx="2431" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,10 @@
         <mxCell id="jNB3o_RYDr2XuxS2xqDh-24" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="1070" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jNB3o_RYDr2XuxS2xqDh-27" value="创建x个子红包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jNB3o_RYDr2XuxS2xqDh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jNB3o_RYDr2XuxS2xqDh-27" target="jNB3o_RYDr2XuxS2xqDh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNB3o_RYDr2XuxS2xqDh-27" value="创建红包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jNB3o_RYDr2XuxS2xqDh-29" value="领取子红包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -96,6 +99,9 @@
         </mxCell>
         <mxCell id="jNB3o_RYDr2XuxS2xqDh-31" value="发放对应金额的津贴、...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNB3o_RYDr2XuxS2xqDh-33" value="预生成子红包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
