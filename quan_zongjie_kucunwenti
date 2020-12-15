@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T07:20:13.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.11.0" etag="zhrkdsbG28E1yrUUzQkD" type="github"><diagram id="tMBtVEnSz49MkOj2EyD-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:32:07.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kvH5JCHkbdUdM4-mBjA6" version="13.11.0" type="github">
+  <diagram id="tMBtVEnSz49MkOj2EyD-" name="Page-1">
+    <mxGraphModel dx="1298" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="530" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;t_rule&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UK&lt;/td&gt;&lt;td&gt;rule_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;total_num&lt;br&gt;received_num&lt;br&gt;...&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;t_promotion&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UK&lt;/td&gt;&lt;td&gt;promotion_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;rule_id&lt;br&gt;user_id&lt;br&gt;...&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-6" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;t_rule_user&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;rule_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;user_id&lt;br&gt;received_num&lt;br&gt;...&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="237.5" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pGkwIsPYSTwGWu6zpkkc-8" target="pGkwIsPYSTwGWu6zpkkc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-8" value="update券领取总数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pGkwIsPYSTwGWu6zpkkc-9" target="pGkwIsPYSTwGWu6zpkkc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-9" value="update券单人领取总数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="282.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-10" value="insert券实体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pGkwIsPYSTwGWu6zpkkc-16" value="DB事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
