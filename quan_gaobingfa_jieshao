@@ -1,14 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T04:03:36.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oifCjXudud6PqIvGupSX" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T07:41:54.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VLC3KNdLVbNTLQ3mdtY2" version="13.11.0" type="github">
   <diagram id="rQvOk0T8SjVjpnFKIPTt" name="Page-1">
-    <mxGraphModel dx="689" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Pjjx5PB9ISzk1dkJXbAg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pjjx5PB9ISzk1dkJXbAg-8" target="Pjjx5PB9ISzk1dkJXbAg-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Pjjx5PB9ISzk1dkJXbAg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="90" width="190" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Pjjx5PB9ISzk1dkJXbAg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjjx5PB9ISzk1dkJXbAg-1" target="Pjjx5PB9ISzk1dkJXbAg-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjjx5PB9ISzk1dkJXbAg-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pjjx5PB9ISzk1dkJXbAg-1" target="Pjjx5PB9ISzk1dkJXbAg-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Pjjx5PB9ISzk1dkJXbAg-1" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="250" y="195" width="130" height="60" as="geometry" />
@@ -138,6 +152,15 @@
         </mxCell>
         <mxCell id="Pjjx5PB9ISzk1dkJXbAg-41" value="执行更新业务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1150" y="205" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjjx5PB9ISzk1dkJXbAg-51" value="消息监控" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="697" y="390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjjx5PB9ISzk1dkJXbAg-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjjx5PB9ISzk1dkJXbAg-54" target="Pjjx5PB9ISzk1dkJXbAg-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjjx5PB9ISzk1dkJXbAg-54" value="拨测监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="460" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
