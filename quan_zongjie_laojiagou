@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T06:29:02.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oaozofz4Q08w5FTh1VuO" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T06:31:33.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="pWuilLi9EMkhHRtP2E_H" version="13.11.0" type="github">
   <diagram id="IKlNY6O6cCmlU0rDQXXp" name="Page-1">
-    <mxGraphModel dx="1258" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JyCpy86LP66PpjTRHUlV-1" value="券MVP服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-1" value="券MVP服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="370" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-2" value="ARES战神" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-2" value="ARES战神" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="160" y="140" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-3" value="C端页面CGI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-3" value="C端页面CGI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="310" y="140" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-4" value="平台运营" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-4" value="平台运营" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="450" y="140" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-5" value="商家运营" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-5" value="商家运营" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="590" y="140" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-6" value="资源位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-6" value="资源位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="160" y="310" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-7" value="交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-7" value="交易" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="380" y="310" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JyCpy86LP66PpjTRHUlV-8" value="UG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JyCpy86LP66PpjTRHUlV-8" value="UG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="590" y="310" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JyCpy86LP66PpjTRHUlV-9" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="JyCpy86LP66PpjTRHUlV-1">
