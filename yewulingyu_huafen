@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T07:25:53.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.11.0" etag="jPlGPNYeuoFpDEpF5Bnr" type="github"><diagram id="U73FnNG6LIzstJ1DR7Vt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-19T10:41:43.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ixvGw5SkSReD3Z14obDd" version="13.11.0" type="github">
+  <diagram id="U73FnNG6LIzstJ1DR7Vt" name="Page-1">
+    <mxGraphModel dx="1262" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-1" value="业务域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-2" value="交易" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-3" value="风控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-4" value="支付" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-5" value="UG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-6" value="优惠券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mL07Q_ATCyEStZ2NybQw-7" value="津贴" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
