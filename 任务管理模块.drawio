@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T08:27:33.188Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="9JtYYlb-sat62gcOyb_6" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T10:37:56.173Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="JCu2wgPMQirEu2kE2TgY" version="14.9.0" type="github">
   <diagram id="WEavagxoX7mWQo-rN5Ej" name="Page-1">
-    <mxGraphModel dx="1296" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,6 +109,9 @@
         </mxCell>
         <mxCell id="izCRMT_DsCXFCk0jyUp6-5" value="&lt;b style=&quot;font-size: 19px&quot;&gt;文件存储&lt;br&gt;服务器&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="640" y="157" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="izCRMT_DsCXFCk0jyUp6-6" value="任务更新&lt;br&gt;初始化加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=19;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="616" y="279.9966666666666" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
